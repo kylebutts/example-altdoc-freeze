@@ -1,0 +1,15 @@
+{
+  "hash": "7bcc58f0c703c0362932f8cf89174c6c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "## Function to wait for a specified number of seconds {.unnumbered}\n\n\n### Description\n\nThis function pauses the execution for a specified number of seconds.\n\n\n\n### Usage\n\n<pre><code class='language-R'>wait(n_secs)\n</code></pre>\n\n\n### Arguments\n\n<table>\n<tr><td style = \"white-space: nowrap; font-family: monospace; vertical-align: top\"><code id=\"wait_:_n_secs\">n_secs</code></td>\n<td>\nNumber of seconds to wait\n</td></tr>\n</table>\n\n\n### Examples\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(example)\n\nwait(5) # Waits for 5 seconds\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
