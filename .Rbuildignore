@@ -1,0 +1,5 @@
+^LICENSE\.md$
+^docs$
+^altdoc$
+^_quarto$
+^vignettes/**.qmd$

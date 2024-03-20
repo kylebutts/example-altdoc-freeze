@@ -1,0 +1,15 @@
+Package: example
+Title: Example Documentation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Kyle", "Butts", , "kbutts@uark.edu", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+URL: https://github.com/kylebutts/example/
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

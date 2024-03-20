@@ -1,0 +1,19 @@
+---
+title: "Welcome"
+execute:
+  freeze: true
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r wait-for-10-seconds}
+library(example)
+wait(10)
+1 + 1
+```
+
